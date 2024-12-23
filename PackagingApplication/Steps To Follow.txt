@@ -1,0 +1,77 @@
+Spring Web 
+Spring Data JPA
+Spring Dev Tools
+Lombok
+Zipkin
+h2 databse
+config server
+eureka discovery client
+Reactive web
+Parcel Tracking Application
+github.com	9182029380
+
+1.Eureka Server
+	i.Initializer dependencies
+		1.Eurekha Server 
+		2.Spring Web
+	
+	ii.Create application.yml in resources file
+			paste code from Service discovery spring 
+	
+	iii.Add annoatation @EnableEurekaServer to Application file
+	
+2.Config Server
+	i.Initializer dependencies
+		1.Eurekha Discovery Client
+		2.Config Server
+	
+	ii.Add annoatation @EnableEurekaServer to Application file
+	
+	iii.Edit application.yml add classpath
+	
+	iv.Create Configurations directory with files discovery.yml
+		paste  port and code from eureka server application.yml
+		write port and code for parcel server application.yml
+		
+3.Parcel Server
+	i.Initializer dependencies
+		1.Spring Web
+		2.Eureka Discovery Client
+		3.Cloud Config Server
+		4.Spring Web
+		5.Spring Dev Tools
+		6.JPA
+		7.Lomobok
+		8.Spring Boot Activater
+		9.SQL Driver
+			
+4.Vendor Server
+	i.Initializer dependencies
+		1.Spring Web
+		2.Eureka Discovery Client
+		3.Cloud Config Server
+		4.Spring Web
+		5.Spring Dev Tools
+		6.JPA
+		7.Lomobok
+		8.Spring Boot Actuator
+		9.SQL Driver
+		10.Open Fegin
+			
+5.APIGatway	
+	i.Initializer dependencies
+		1.Gateway
+		2.zipkin
+		3.Config Server
+		4.SpringBoot Actuator
+		5.Discovery Client
+		
+		Spring Web 
+Spring Data JPA
+Spring Dev Tools
+Lombok
+Zipkin
+h2 databse
+config server
+eureka discovery client
+Reactive web
